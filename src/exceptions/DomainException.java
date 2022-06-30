@@ -8,6 +8,7 @@ public class DomainException extends RuntimeException {
 	
 	//Construtor que recebe string como argumento
 	public DomainException(String msg) {
+		
 		//repassando a mensagem para o construtor da super classe 
 		
 		//com a finalidadede permitir a instanciação da exceção personalizada pasando uma mensagem
